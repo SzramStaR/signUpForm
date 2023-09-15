@@ -22,7 +22,7 @@
     border-radius: 3px;;
 }
 .input input:hover,
-.input input:focus{
+.input input :focus{
     border: 2px solid black;
     box-shadow: 2px 2px !important;
 }
@@ -37,6 +37,8 @@
 .flexContainer{
     display: flex;
     flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vh;
 }
 .imgContainer{
     display: flex; 
@@ -50,4 +52,18 @@
 .formContainer{
     flex: 1;
     background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+.heading{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+    padding: 15px;
+
 }
